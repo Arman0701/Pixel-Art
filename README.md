@@ -9,7 +9,7 @@
 
 ![Main desltop](https://github.com/Arman0701/Pixel-Art/blob/main/src/assets/projectImages/Pixel_art_main_desktop.PNG)
 ![Board desktop](https://github.com/Arman0701/Pixel-Art/blob/main/src/assets/projectImages/Pixel_art_board_desktop.PNG)
-![drawed image](https://github.com/Arman0701/Pixel-Art/blob/main/src/assets/projectImages/Picture.PNG)
+![drawed image](https://github.com/Arman0701/Pixel-Art/blob/main/src/assets/projectImages/Picture.png)
 
 ### On the first page you can give a name to the picture, specify the number of pixels according to width and height. Then you need to press the Start drawing button.
 
