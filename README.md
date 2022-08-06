@@ -7,7 +7,9 @@
 
 ### This is a SPA consisting of 2 pages.
 
-![alt text]()
+![alt text](https://github.com/Arman0701/Pixel-Art/blob/main/src/assets/projectImages/Pixel_art_main_desktop.PNG =400x250)
+![alt text](https://github.com/Arman0701/Pixel-Art/blob/main/src/assets/projectImages/Pixel_art_board_desktop.PNG =400x250)
+![alt text](https://github.com/Arman0701/Pixel-Art/blob/main/src/assets/projectImages/Pixel(10).PNG =400x250)
 
 ### On the first page you can give a name to the picture, specify the number of pixels according to width and height. Then you need to press the Start drawing button.
 
