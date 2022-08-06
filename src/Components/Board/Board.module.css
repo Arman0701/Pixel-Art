@@ -1,0 +1,89 @@
+.boardWrapper {
+	width: 100vw;
+	height: 92.9vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	overflow: auto;
+}
+.boardWrapper::-webkit-scrollbar {
+	width: 10px;
+}
+.board {
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+	flex-wrap: wrap;
+}
+.topPanel {
+	position: absolute;
+	top: 0px;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	padding: 0 30px;
+}
+.information {
+	width: 45vw;
+	display: flex;
+	align-items: center;
+}
+.resetButton {
+	padding: 5px 9px;
+	margin-right: 10px;
+	border: 2px solid rgba(255, 255, 255, 0.33);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	cursor: default;
+	transition: 0.33s;
+}
+.resetButton:hover {
+	background: rgba(255, 255, 255, 0.33);
+}
+.resetButton img {
+	width: 18px;
+	height: 18px;
+}
+.saveButton {
+	cursor: default;
+	padding: 5px 9px;
+	border: 2px solid rgba(255, 255, 255, 0.33);
+	border-radius: 4px;
+	margin-left: 10px;
+	transition: 0.33s;
+}
+.saveButton:hover {
+	background: rgba(255, 255, 255, 0.33)
+}
+.earseButton {
+	cursor: default;
+	color: white;
+	padding: 5px 9px;
+	background: rgba(255, 255, 255, 0.33);
+	border-radius: 4px;
+}
+.picker {
+	width: 11vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.picker input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 56px;
+	height: 28px;
+	border-radius: 4px;
+}
+.picker input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+.picker input[type="color"]::-webkit-color-swatch {
+	border-radius: 4px;
+	border: none;
+}

@@ -1,0 +1,88 @@
+.startWindowWrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 60vw;
+	height: fit-content;
+	margin: 0 auto;
+	padding: 15px 35px;
+	background: rgba(255,255,255,0.33);
+	border-radius: 5px;
+	text-align: center;
+
+}
+.description {
+	margin: 10px 0;
+	padding: 10px 15px;
+	color: white;
+	text-align: center;
+	font-size: 21px;
+	font-weight: 600;
+}
+.titleInput {
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+.titleInput p {
+	font-size: 21px;
+}
+.titleInput input {
+	width: 100%;
+	padding: 3px 8px;
+	border-radius: 3px;
+	font-size: 19px;
+}
+
+.dimensionsWrapper {
+	width: 36%;
+	margin: 25px auto;
+}
+.dimensionsWrapper p {
+	font-size: 21px;
+	color: white;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.dimensionsInputWrapper {
+	margin: 0 auto;
+}
+.dimensionsInputWrapper input {
+	width: 85px;
+	height: 55px;
+	font-size: 40px;
+	text-align: center;
+	border-radius: 4px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+.inputs {
+	display: flex;
+	align-items: center;
+}
+
+.startButton {
+	padding: 5px 15px;
+	font-size: 22px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	border: 2px solid transparent;
+	border-radius: 3px;
+	color: white;
+	background: rgb(40, 63, 179);
+	transition: 0.3s;
+	cursor: pointer;
+}
+.startButton:hover {
+	border: 2px solid transparent;
+	outline: 2px solid rgb(40, 63, 179);
+	transition: 0.3s;
+}
+.startButton:active {
+	outline: 1px solid white;
+}

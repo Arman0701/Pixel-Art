@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open-Sans", sans-serif;
+}
+.App {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background: rgb(87, 63, 101);
+}
+input {
+	outline: none;
+	border: none;
+	margin: 10px 0;
+}

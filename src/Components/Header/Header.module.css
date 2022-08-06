@@ -1,0 +1,9 @@
+.headerWrapper {
+	font-family: "Pacifico", sans-serif;
+	width: 100vw;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 23px;
+	font-weight: 500;
+	color: white;
+}
