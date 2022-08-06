@@ -16,3 +16,8 @@
 ### After that, the user will be taken to the main page of the program, where he needs to draw. in addition to the image field, there are also several buttons for management.
 
 ### After completing the drawing, the user can download it by clicking on the corresponding button.
+
+---
+
+## App is deployed using Firebase Hosting service.
+### You can see it at the following address [pixel-art-73d9c.web.app](https://pixel-art-73d9c.web.app/)
